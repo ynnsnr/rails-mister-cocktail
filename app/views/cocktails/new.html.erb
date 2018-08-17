@@ -1,0 +1,16 @@
+<div class="container">
+  <div>
+
+    <%= simple_form_for [@cocktail] do |f| %>
+      <%= f.input :name %>
+      <%= f.submit "add a cocktail", class: "btn btn-primary" %>
+    <% end %>
+
+    <hr/>
+
+    <p>
+      <i class="fas fa-undo-alt"></i> <%= link_to 'Back to list', cocktails_path %>
+    </p>
+
+  </div>
+</div>
