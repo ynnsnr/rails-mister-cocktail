@@ -21,16 +21,13 @@
     <% end %>
   </ul>
 
+  <%= cl_image_tag @cocktail.photo, height: 300, width: 400, crop: :fill %>
+
   <hr>
 
   <p>
     <i class="fas fa-plus"></i>
     <%= link_to 'Add dose', new_cocktail_dose_path(@cocktail.id) %>
-  </p>
-
-  <p>
-    <i class="fas fa-undo-alt"></i>
-    <%= link_to 'Back to list', cocktails_path %>
   </p>
 
 </div>
