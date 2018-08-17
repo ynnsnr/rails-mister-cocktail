@@ -1,10 +1,11 @@
 // Specific CSS for your home-page
 body {
   color: white;
-  background-image: linear-gradient(-225deg,rgba(64,64,64,0.6) 0%, rgba(0,0,0,0.6) 50%),
-  asset-url('photo-1509807995916-c332365e2d9e.jpeg');
+  background-image: linear-gradient(-225deg,rgba(64,64,64,0.5) 0%, rgba(64,64,64,0.5) 50%),
+  asset-url('helen-thomas-677279-unsplash');
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
 }
 ul.nav li a, ul.nav li a:visited {
     color: white !important;
